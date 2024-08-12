@@ -1,2 +1,6 @@
 # Handwritten-Character-Recognition-
-Major Project
+
+Characters Recognition - OCR
+Text summarizer - NLP
+Authenticity - prompt engineering
+frontend
