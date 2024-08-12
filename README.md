@@ -1,6 +1,8 @@
 # Handwritten-Character-Recognition-
 
-Characters Recognition - OCR
-Text summarizer - NLP
-Authenticity - prompt engineering
-frontend
+<ul>
+<li> Characters Recognition - OCR </li>
+<li> Text summarizer - NLP </li>
+<li> Authenticity - prompt engineering </li>
+<li> frontend </li>
+<ul>
