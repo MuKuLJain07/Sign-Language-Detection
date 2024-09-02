@@ -7,5 +7,8 @@
 <li> Model Training </li>
 <ul>
 
+<br>
 
+<p>
 Tech Stack - Flask, Django, OpenCV, Python
+</p>
