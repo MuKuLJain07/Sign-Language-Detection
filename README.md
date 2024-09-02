@@ -1,8 +1,11 @@
-# Handwritten-Character-Recognition-
+# Sign-Language-Detection
 
 <ul>
-<li> Characters Recognition - OCR </li>
-<li> Text summarizer - NLP </li>
-<li> Authenticity - prompt engineering </li>
-<li> frontend </li>
+<li> Dataset prepare </li>
+<li> UI Desing </li>
+<li> Backend </li>
+<li> Model Training </li>
 <ul>
+
+
+Tech Stack - Flask, Django, OpenCV, Python
