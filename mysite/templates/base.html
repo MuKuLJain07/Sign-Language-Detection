@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        {% block title %} {% endblock title %} | Spell Checker
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+      .navbar-font{
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        margin-left:18px;
+        margin-right:18px;
+      }
+      .navbar-heading{
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+      }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg" style="background-color: black;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="\static\logo.jpg" alt="Logo" width="62" height="65" class="d-inline-block align-text-top" style="margin-top:-10px; margin-bottom:-10px;">
+                <span class="align-text-top navbar-text navbar-heading" style="color: white; font-style: bold;">
+                    GestureTalk
+                </span>
+              </a>
+            </div>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white navbar-font" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white navbar-font" href="aboutUS">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white navbar-font" href="aboutUS">Text to Sign</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white navbar-font" href="aboutUS">Sign to Text</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link disabled navbar-font" aria-disabled="true" style="color: rgba(255, 255, 255, 0.546)">Speech to Sign</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    {% block baseFile %}
+
+
+
+    
+    {% endblock baseFile %}
+   
+
+    <!-- Footer -->
+    <!-- <div class="b-example-divider"></div> -->
+
+    <div class="container footer fixed-bottom">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2024 GestureTalk, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/mukul.jain_07?igsh=MXdmMmR5bTBnY2lqYQ%3D%3D&utm_source=qr "><img src="/static/images/instagram.png" alt="instagram" class="bi" width="24" height="24"></a></li>
+          <li class="ms-3"><a class="text-muted" href="mailto:mukulj2018@gmail.com"><img src="/static/images/gmail.png" alt="email" class="bi" width="24" height="24"></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://wa.me/9354948199"><img src="/static/images/whatsapp.png" alt="whatsapp" class="bi" width="24" height="24"></a></li>
+        </ul>
+      </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+

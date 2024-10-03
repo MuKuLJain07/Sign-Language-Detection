@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+Homepage
+{% endblock title %}
+
+{% block baseFile %}
+<!-- <form method="post">
+    {% csrf_token %}
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Enter complete location of your pdf file"
+             name="location" value="{{loc}}">
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Enter text" name="input" value="{{inp}}">
+        <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
+    </div>
+    
+    {% for entry in output%}
+        {% if entry.bool == 'False' %}
+            <span style="color:red">{{entry.word}}</span>
+        {% else %}
+            <span>{{entry.word}}</span>
+        {% endif %}
+    {% endfor %}
+    
+    <div class="input-group mb-3">
+        <input type="file" class="form-control" id="inputGroupFile02" accept=".pdf">
+        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+    </div>
+</form> -->
+<img src="static\background.png" alt="..." class="img-thumbnail rounded mx-auto d-block" style="height: 500px;">
+
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non eos, officia perspiciatis possimus quos aliquid placeat consequatur nulla eligendi sapiente, laboriosam similique hic alias, fugiat voluptate asperiores quo necessitatibus! Neque.
+{% endblock baseFile %}
