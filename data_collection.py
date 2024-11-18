@@ -8,7 +8,7 @@ import os
 ##################################
 offset = 20
 imgSize = 300
-Directory = r'M:\Projects\Computer Vision\Hand Sign Detection\Dataset\A'
+Directory = r'Dataset/B'
 counter = 1
 
 # Ensure directory exists
